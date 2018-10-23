@@ -15,9 +15,7 @@ while counter <= 999:
 while True:
     switch = random.randint(1,2)
     ran = random.randint(0,1000)
-    #Print Span word, expects eng word
     if switch == 1:
-
         answer = input(spanishwords[ran]+"In english is: ")
         if (answer+"\n") == englishwords[ran]:
             print ("correct \n")
