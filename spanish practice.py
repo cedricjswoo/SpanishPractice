@@ -1,12 +1,10 @@
-#Spanish Practice
 import random
-
 spanishwords = []
 englishwords = []
 counter = 0
+
 spanfile = open("Spanish.txt","r")
 engfile = open("English.txt","r")
-
 while counter <= 999:
     spanishwords.append(spanfile.readline())
     englishwords.append(engfile.readline())
